@@ -1,4 +1,4 @@
-# [maekrshin's web project](https://github.com/makershin/maekrshin.github.io)
+# [makershin's web project](https://github.com/makershin/makershin.github.io)
 # 타이틀크기1
 ## 타이틀크기2
 ### 타이틀크기3
