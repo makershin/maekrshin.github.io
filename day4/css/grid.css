@@ -1,0 +1,46 @@
+/*! grid.css @2017 Jina.Shin */
+
+/* 웹 브라우저에 가인드라인 표시 */
+
+html{
+    background-color: #fff;
+}
+
+body {
+    margin-top: 0;
+    padding-top: 48px; 
+    background: url("./leading-24.png");
+    height: 100vh;
+    /* 글꼴, 글자크기, 글자색상, 자간, 어간, 행간 설정 */
+    font-family: NanumSquare, "Dotum", sans-serif; 
+    font-size: 16px;
+    color: #000;
+    letter-spacing: 0.02em; /* 포토샵에서 자간 20을 1000으로 나눈 후, em단위를 붙인다. */ 
+    line-height: 1.5;
+
+    /* 속기형 속성 : */
+    /* font : 글자크기 글꼴; (필수) */
+    /*font: 14px "NanumSquare", Dotum;*/
+
+    /* font : 글자크기/행간 글꼴; (옵션) */
+    /*font: 14px/1.5 "NanumSquare", Dotum;*/
+
+    /* font : 두께 기울기 변형 글자크기/행간 글꼴; (옵션) */
+    /*font: bold italic small-caps 14px/1.5 "NanumSquare", Dotum;*/
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 24px; /* 1.5em */ 
+}
+
+/* 컨테이너 디자인 */
+.container {
+    /* 너비 */
+    width: 90%;
+    /* 최대너비 */
+    max-width: 800px;
+    /* 가운데 배치(Layout) : 남은 공간을 양분 */
+    margin-left: auto;
+    margin-right: auto;
+}
