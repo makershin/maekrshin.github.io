@@ -1,0 +1,35 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1080px;
+    height: 100vh;  /*vh = viewport height*/
+}
+
+h1, h2, h3 {
+    font-weight: 100;
+    font-family: "Spooqa Han Sans"
+}
+
+a {
+    color : #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    color : #cc9900;
+}
+
+
+.active-page{
+    border-right: 5px lightgreen solid;
+    /*border-left : 3px(두께) 색깔 모양 */
+}
+
+/*  각 페이지마다 배경 이미지 변경 id속성으로 구분 */
+#travel {
+    /*background: 색상(color) 이미지경로(url()) 반복설정(repeat) 위치(position) 고정설정(attachment)*/
+    /* 기본값 */
+    /* background: transparent url() repeat left top scroll;*/
+
+
+}
