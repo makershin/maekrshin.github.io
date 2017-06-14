@@ -1,0 +1,182 @@
+/* 초기화 */
+html{
+    overflow-y: scroll;
+    font-size: 10px;
+    background-color: #fff;
+}
+body{
+    margin: 0;
+    font-size: 1.4rem;
+    font-family: "Spoqa Han Sans", Dotum, Sans-Serif;
+    color: #333741;
+}
+
+/* Baseline Guide */
+.guide {
+  height: 500vh;
+  background: linear-gradient(180deg, transparent 2rem, hsla(246.9, 60.2%, 63.4%, 0.6) 2rem);
+  background-size: 0.1rem 2.1rem;
+}
+.toggle-guide {
+  cursor: pointer;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  border: none;
+  padding: 1em;
+  background: hsla(246.9, 60.2%, 63.4%, 0.65);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all 0.45s ease-in-out;
+  box-shadow: 0 1px 4px hsla(0, 0%, 40%, 0.35);
+  -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);
+}
+.toggle-guide:hover {
+  background: hsla(246.9, 60.2%, 63.4%, 0.95);
+}
+/* 모든 이미지는 수직방향에 중앙에 오도록 한다 */
+img{
+    vertical-align: middle;
+}
+/* 타이포그래피 */
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 2.1rem;
+}
+
+p{
+    letter-spacing: -0.02em;
+    line-height: 2.1rem;
+}
+
+h1, h3, h5, h6{
+    letter-spacing: -0.05em;
+}
+
+h1, h3{
+    font-weight: 300;
+}
+h5, h6{
+    font-weight: 400;
+    line-height: 2.1rem;
+}
+h1{
+    font-size: 5.46rem;
+    line-height: 6.3rem;
+}
+h3{
+    font-size: 3.27rem;
+    line-height: 4.2rem;
+    color: #333741;
+
+}
+h5{
+    font-size: 1.838rem;
+    color: #787f94;
+
+}
+h6{
+    font-size: 1.56rem;
+    color: #47494e;
+}
+
+/* 목록 디자인 */
+.reset-list{
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 2.1rem;
+    padding-left: 0;
+
+}
+li{}
+dl{}
+dt{}
+dd{}
+
+/*Hyperlink Design*/
+a:link{
+    color: #227e92;
+    text-decoration: none;
+}
+a:hover{
+    color: #41b4cd;
+}
+/*a:visited{}
+a:focus{}
+a:active{}*/
+
+/* 레이아웃 */
+.container{
+    width: 82rem;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-top: 8.4rem;*/
+    padding-top: 8.4rem;
+}
+
+header{
+    text-align: center;
+}
+
+main{
+    margin-top: 4.2rem;
+
+}
+
+.section-important{
+}
+/* count쓰기 - reset를 설정해줘야한다 */
+.order-teeth-manage{
+    margin-top: 4.2rem;
+    counter-reset: order-teeth-manage;
+}
+.order-teeth-manage li::before{
+    content: counter(order-teeth-manage)'.';
+    counter-increment: order-teeth-manage;
+}
+
+.order-title{
+    /* strong을 블록으로 바꿔주는 코드를 넣어줘야한다 */
+    display: inline-block;
+    font-weight: 700;
+    color: #787f94;
+    line-height: 2.1rem;
+    letter-spacing: -0.01em;
+    margin-bottom: 2.1rem;
+
+}
+.section-QnA{
+
+}
+
+.img-wrapper{
+    float: left;
+    margin-right: 1rem;
+}
+.img-display01{
+    height: 14.7rem;
+}
+.img-display02{
+    height: 10.5rem;
+}
+.img-display03{
+    height: 10.5rem;
+}
+.img-display04{
+    height: 10.5rem;
+}
+.img-display05{
+    height: 6.3rem;
+}
+hr{
+    widows: 820px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 4rem;
+    border: none; 
+    border: 1px dashed #227e92;
+}
+
