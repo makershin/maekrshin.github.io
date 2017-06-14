@@ -1,0 +1,74 @@
+/*가이드라인을 화면에 보여준다*/
+body {
+    margin: 0;
+    background: url("../assets/leading-24.png");
+    height: 100vh;
+    /*본문 디자인 - 공통 속석 상속*/
+    color: black;
+    font: 400 100%/1.5 'Nanum Barun Gothic';
+    letter-spacing: -0.02em;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin-top: 0;
+}
+
+/* 제목디자인 : modular scale = 1.24 */
+
+h1{
+    font-size: 3.6344em;
+    line-height: 1.2381;   /* 3*1.5/3.6344 */
+    margin-bottom: 1.2381em;
+}
+
+h2{
+    font-size: 2.931em;   /* 2.364*1.24 */
+    line-height: 1.0235;         /* 2*1.5/2.931 */
+    margin-bottom: 1.0235em;
+}
+
+
+h3{
+    font-size: 2.364em;   /* 1.9066*1.24 */
+    line-height: 1.269; /* 2*1.5/2.364 */
+    margin-bottom: 1.269em;
+}
+
+h4{
+    font-size: 1.9066em;
+    line-height: 1.573;
+    margin-bottom: 1.573em;
+}
+
+h5{
+    font-size: 1.5376em;
+    line-height: 0.98;
+    margin-bottom: 0.98em;
+}
+
+h6{
+    /* 본문 글자 크기 x 글자 크기 배율 */
+    font-size: 1.24em; /* 1em = 16px */
+    /* 행간 = 디자인 상의 줄 개수 x (행간비율 / 글자크기 비율) */
+    line-height: 1.21;  /* 1칸 (1.5/1.24 ) */
+    /* 아래쪽 마진 = 행간비율 / 글자크기 비율 */
+    margin-bottom: 1.21em;
+}
+
+
+
+/*양쪽정렬*/
+.align-justify{
+
+}
+
+.container {
+    width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
