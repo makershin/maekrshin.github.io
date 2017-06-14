@@ -1,0 +1,39 @@
+body{
+    margin: 4rem;
+}
+
+/* float사용해서 horizontal 배열 */
+.box{
+    float: left;
+    margin-right: 2rem;
+    width: 200px;
+    height: 200px;
+    font: 300 1.45rem Verdana;
+    color: #fff;
+}
+
+.is-central {
+    text-align: center;
+    /* 행간을 높이만큼해서 텍스트가 가운데 오게한다. */
+    line-height: 200px;
+}
+
+.primary{
+    background: #fa2645;
+
+}
+
+.secondary{
+    background: #fc8b9c;
+
+}
+
+.third{
+    background: #ad3d4e;
+
+}
+
+.fourth{
+    background: #4e4e4e;
+
+}
