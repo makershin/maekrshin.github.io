@@ -1,0 +1,67 @@
+/* justify web font */
+.baskerville {
+    font-family: 'Libre Baskerville', serif;
+}
+.montserrat {
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+.is-bold {  
+    font-weight: 700;
+}
+
+/* design of article */
+.grace-ui.article11 {
+    width: 580px;
+	height: 450px;
+	border-radius: 10px;
+	background-color: #ffffff;
+    box-shadow: 0 0 3px rgba(0,0,0,0.1)
+}
+.is-centerXY {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -225px;
+    margin-left: -290px;
+}
+.banner-chair-img {
+    position: absolute;
+    top: 38px;
+    left: 33px;
+}
+.banner-category {
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    font-size: 12px;
+    letter-spacing: 1px;
+	color: #12407e;
+}
+.banner-headline {
+    position: absolute;
+    top: 116px;
+    right: 47px;
+    margin: 0;
+    width: 205px;
+    font-size: 28px;
+	line-height: 1.36;
+	color: #000000;
+}
+.banner-description {
+    position: absolute;
+    bottom: 174px;
+    left: 331px;    
+    width: 200px;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #8c9199;
+}
+.banner-page-link {
+    position: absolute;
+    right: 185px;
+    bottom: 74px;  
+    padding: 21px 15px;
+	background-color: #f2f3f5;
+    border-radius: 100px;
+}
