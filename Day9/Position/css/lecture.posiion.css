@@ -1,0 +1,29 @@
+body{
+    margin: 30px;
+}
+
+.box-parent{
+    position: relative;
+    border: 1px solid #aaa;
+}
+.box-child{
+    width: 200px;
+    height: 110px;
+    background: #111;
+    color: #fff;
+    text-align: center;
+    line-height: 110px;
+    font-size: 20px;
+}
+.box-child:last-child{
+    margin-bottom: 0;
+}
+.is-1st{ 
+    /* 자신의 원래 위치에 상대적(relative)으로 이동한다 */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #3ab982;
+}
+.is-2nd{ background: #e5be9b;}
+.is-3rd{ background: #fd414b;}

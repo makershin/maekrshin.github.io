@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+}
+.banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 800px;
+    height: 320px;
+    margin-top: -160px;
+    margin-left: -400px;
+    background: #222;
+}
+
+.banner .banner-apes,
+.banner .banner-gorila,
+.banner .banner-kingkong,
+.banner .banner-sn-logo{
+    position: absolute;
+}
+.banner-apes{
+    bottom: 93px;
+    left: 4px;
+}
+.banner-gorila{
+    bottom: 24px;left: 10px;
+}
+.banner-kingkong{
+    bottom: 0;
+    right: 11px;
+}
+.banner-sn-logo{
+    top: 18px;left: 18px;
+}
