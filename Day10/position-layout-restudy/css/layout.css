@@ -1,0 +1,44 @@
+html{
+    font-size: 10px;
+}
+body{
+    margin: 5rem;
+}
+.box{  
+    padding: 1rem;
+    border: 1px solid#aaa;
+}
+.parent .is-1st {
+    background: #bcbcbc;
+    position: relative;
+}
+.child{
+    width: 14rem;
+    height: 14rem;
+    background: #fff;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+.one{
+    position: relative;
+    z-index: 1000;
+    color: red;
+}
+.two{
+    position: absolute;
+    z-index: 100;
+    /*text-shadow: x y blur spread color*/
+    text-shadow: 0 1px 0.5rem grey;
+    color: yellow;
+}
+.three{
+    position: absolute;
+    z-index: 100;
+    top: 150px;
+    left: 50px;
+    color: blue;
+}
+.parent .is-2nd {
+    background: #bcbcbc;
+    position: relative;
+}

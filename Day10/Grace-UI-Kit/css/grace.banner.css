@@ -1,0 +1,99 @@
+/* 한글이 깨지는 경우 추가 */
+/* charset "utf-8"; */ 
+
+::selection{
+    background: #dba68f;
+    color: #fff;
+}
+
+.baskerville {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+}
+.is-italic{
+    font-style: italic;
+}
+.montserrat {
+    font-weight: 300; /* Light */
+    font-family: 'Montserrat', sans-serif;
+}
+.is-bold{
+    font-weight: 700; /* bold */
+}
+
+/* 배너디자인 */
+.grace-ui.banner{
+    /* 삭제 필요없음 */
+    /* position: absolute;*/
+    width: 580px;
+    height: 215px;
+    /* background : bg-color url() repeat left top  */
+    background: #fff url("../grace-ui-kit--banner/images/people.png") no-repeat 88px 9px;
+    /*border: 1px solid #cdcdcd;*/
+    box-shadow: 0 0 4px rgba(0,0,0,0.2);
+    /* 둥근(radius) 테두리 */
+    border-radius: 10px;
+    transition: box-shadow 1.2s ease-in-out;
+}
+.grace-ui.banner:hover {
+  box-shadow: 0 0 40px rgba(190, 172, 125, 0.36);
+}
+
+.is-centerXY{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -107.5px;
+    margin-left: -290px;
+
+}
+.banner-category{
+    position: absolute;
+    left: 20px;
+    top: 100px;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+}
+.banner-headline{
+    position: absolute;
+    right: 70px;
+    top: 26px;
+    margin: 0;
+    color: #dba68f;
+    font-size: 36px;
+    letter-spacing: -0.14px;
+    line-height: 1.1111;  /*42px/36px*/
+}
+.banner-review{
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+}
+.banner-review *{
+    font-size: 13px;
+    padding-left: 24px;
+
+}
+.banner-review .review-view{
+    margin-right: 20px;
+    background: url("../grace-ui-kit--banner/images/icon-view.svg") no-repeat 0 50%;
+}
+.banner-review .review-comments{
+    background: url("../grace-ui-kit--banner/images/icon-comments.svg") no-repeat 0 50%;
+}
+.banner-review-link{
+    position: absolute;
+    right: 51px;
+    bottom: 48px;
+    padding: 0.8em 1.5em;
+    text-decoration: none;
+    letter-spacing: 0.7px;
+    font-size: 14px;
+    color: #fff;
+    background: #000;
+    border-radius: 20px;
+}
+.banner-review-link:hover {
+  background: #dba68f;
+}
